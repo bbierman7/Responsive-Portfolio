@@ -33,7 +33,8 @@ body {
   
   .block-header {
     /* Typography */
-    color: #4aaaa5;
+    /* color: #4aaaa5; */
+    color: blue;
     font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: bold;
   }
@@ -48,12 +49,14 @@ body {
     color: #fff;
   
     /* Visual */
-    background: #4aaaa5;
+    /* background: #4aaaa5; */
+    background: blue;
   }
   
   /* override bootstrap hover color and border */
   .navbar-default .navbar-nav > li > a:hover {
-    color: #4aaaa5;
+    /* color: #4aaaa5; */
+    color:blue;
   }
   
   .navbar {
@@ -64,7 +67,8 @@ body {
   /* media query for nav background color change */
   @media only screen and (max-width: 767px) {
     .navbar-header {
-      background-color: #4aaaa5;
+      /* background-color: #4aaaa5; */
+      background-color: blue;
     }
   }
   /* END NAV */
@@ -95,7 +99,9 @@ body {
   }
   
   img:hover {
-    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    /* box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5); */
+    box-shadow: 0 0 2px 1px rgb(4, 61, 250);
+
   }
 
   #images {
@@ -137,7 +143,8 @@ body {
     padding-top: 3px;
   
     /* Visual */
-    background-color: #4aaaa5;
+    /* background-color: #4aaaa5; */
+    background-color: blue;
   }
   /* END FOOTER */
   /* --- END STYLES FOR ALL PAGES --- */
@@ -152,7 +159,8 @@ body {
     /* Typography */
     font-size: 32px;
     font-weight: bold;
-    color: #4aaaa5;
+    /* color: #4aaaa5; */
+    color: blue;
   }
   
   #about-image {
@@ -193,7 +201,8 @@ body {
     color: #fff;
   
     /* Visual */
-    background-color: #4aaaa5;
+    /* background-color: #4aaaa5; */
+    background-color: blue;
     border: 0;
   }
   
