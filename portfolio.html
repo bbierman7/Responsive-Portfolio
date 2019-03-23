@@ -2,75 +2,135 @@
 <html lang="en-us">
 
 <head>
-    <title>Recommended Assignment</title>
-    <link rel="stylesheet" type="text/css" href="assets\css\style.css">
-    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Bootstrap Basic Portfolio</title>
+
+  <!-- Boostrap Stylesheet -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <!-- Our own CSS stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css" media="screen">
+
 </head>
 
 <body>
-    <nav class="topnav-right">
-            <a href="index.html" id="me">Brendan Bierman</a>
-            <a href="index.html" target="_self">About Me |</a>
-            <a href="contact.html" target="_self">Contact |</a>
-            <a href="portfolio.html" target="_self">Portfolio </a>
-    </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <a class="navbar-brand" href="index.html" id="logo">Brendan Bierman</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">About</a>
+              </li>
+            </ul>
+          </div>
+          <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+      </nav>
+      <!-- End of navbar -->
 
-    <!-- <div class="container">
-        <img src="sports.jpg" alt="sports" style="width:100%;">
-            <div class="text-block"> 
-            <h4>Sports</h4>
+  <div class="container">
+    <main class="row">
+      <div col="col-md-9">
+      <div class="card">
+         <article class="block">
+          <div class="row">
+            <div class="col-sm-6 col-md-2 col-lg-4">
+              <div class="card" style="width: 18rem;">
+                  <div class="card-body">
+                  <a href="https://bbierman7.github.io/Giphy_Soccer/" target="_blank"><img class="img-fluid port-image" src="assets/images/soccer.jpg" alt="..."></a>
+                  <div class="card-body">
+                      <h5 class="card-title">Giphy Soccer</h5>
+                      <p class="card-text">Check out some cool soccer gifs! (Click the image for the page, and click the button for the code!</p>
+                      <a href="https://github.com/bbierman7/Giphy_Soccer" target="_blank" class="btn btn-primary">Check out the code</a>
+                    </div>
+                  <!-- <div class="card-body"> -->
+                      <!-- <a href="https://github.com/bbierman7/Giphy_Soccer" target="_blank"><p class="card-text">Check out some cool soccer gifs!</p></a> -->
+                  <!-- </div> -->
+              </div>
+              </div>
             </div>
-
-        <img src="business.jpg" alt="sports" style="width:100%;">
-            <div class="text-block"> 
-            <h4>Business</h4>
-            </div>
-
-        <img src="money.jpg" alt="sports" style="width:100%;">
-            <div class="text-block"> 
-            <h4>Finance</h4>
-            </div>
-
-        <img src="purpleswirl.jpg" alt="sports" style="width:100%;">
-            <div class="text-block"> 
-            <h4>Fun</h4>
-            </div>
-    </div> -->
-
-    <!-- Tab content-->
-    <div id="Interests" class="tabcontent">
-        <h3>Interests</h3>
-        <hr>
-        <a href="style.css"></a>
-        <p>
-            <div class="container">
-                    <img src="assets\images\sports.jpg" alt="sports">
-                        <div class="text-block">    
-                            <!-- <h4>Sports</h4> -->
+            <div class="col-sm-6 col-md-2 col-lg-4">
+              <div class="card" style="width: 18rem;">
+                  <div class="card-body">
+                      <a href="https://bbierman7.github.io/Pyschic-Game/" target="_blank"><img class="img-fluid port-image" src="assets/images/psychic.jpg" alt="..."></a>
+                      <div class="card-body">
+                          <h5 class="card-title">Psychic-Game</h5>
+                          <p class="card-text">Can you guess the correct letters? (Click the image for the page, and click the button for the code!</p>
+                          <a href="https://github.com/bbierman7/Psychic-Game" target="_blank" class="btn btn-primary">Check out the code</a>
                         </div>
-            
-                    <img src="assets\images\business.jpg" alt="business">
-                        <div class="text-block">     
-                            <!-- <h4>Business</h4> -->
-                        </div>
-            
-                    <img src="assets\images\money.jpg" alt="money">
-                        <div class="text-block">     
-                            <!-- <h4>Money</h4> -->
-                        </div>
-            
-                    <img src="assets\images\party.jpg" alt="party">
-                        <div class="text-block"> 
-                            <!-- <h4>Fun</h4>
-                             -->
-                        </div>
+    
+                  <!-- <div class="card-body"> -->
+                  <!-- <a href="https://bbierman7.github.io/Psychic-Game/" target="_blank"><img class="img-fluid port-image" src="assets/images/psychic.jpg" alt="..."></a> -->
+                  <!-- <div class="card-body"> -->
+                      <!-- <a href="https://github.com/bbierman7/Psychic-Game" target="_blank"><p class="card-text">Can you guess the correct letter?</p></a> -->
+                  <!-- </div> -->
+              </div>
+              </div>
+              </div>
+          <!-- </div> -->
+          <!-- <div class="row"> -->
+              <div class="col-sm-6 col-md-2 col-lg-4">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <a href="https://bbierman7.github.io/TriviaGame/" target="_blank"><img class="img-fluid port-image" src="assets/images/trivia.jpg" alt="..."></a>
+                    <div class="card-body">
+                        <h5 class="card-title">Trivia Game</h5>
+                        <p class="card-text">Think you know your trivia? (Click the image for the page, and click the button for the code!</p>
+                        <a href="https://github.com/bbierman7/Giphy_Soccer" target="_blank" class="btn btn-primary">Check out the code</a>
+                      </div>
+  
+                <!-- <div class="card-body"> -->
+                <!-- <a href="https://bbierman7.github.io/TriviaGame/" target="_blank"><img class="img-fluid port-image" src="assets/images/trivia.jpg" alt="..."></a> -->
+                <!-- <div class="card-body"> -->
+                    <!-- <a href="https://github.com/bbierman7/TriviaGame" target="_blank"><p class="card-text">Think you know your trivia?</p></a> -->
+                <!-- </div> -->
             </div>
-                            
-        </p>
-    </div>
+            </div>
+            </div>
+          <!-- </div> -->
+        </div>
 
-    <footer 
-        class=footer>
-    </footer>
+         </article>
+      </div>
+     </div>
+    </main>
+  </div>
+
+
+  
+
+  <!-- Start of footer -->
+  <footer class="footer">
+    <div class="two-toned-footer-color"></div>
+    <p class="text-muted text-muted-footer text-center">
+      &copy; Copyright 2018 Brendan Bierman
+    </p>
+  </footer>
+  <!-- End of footer -->
+
+  <!-- jQuery CDN -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Bootstrap CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script></script>
+
 </body>
+
 </html>
